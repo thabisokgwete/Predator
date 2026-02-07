@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 100" width="500" height="100">
+  <style>
+    .text { 
+      font-family: 'Helvetica Neue', Arial, sans-serif; 
+      font-weight: bold; 
+      font-size: 60px; 
+      letter-spacing: 0.18em; 
+      fill: #ffffff; 
+      text-transform: uppercase;
+    }
+    .triangle { 
+      fill: #800000; 
+      font-size: 1.3em; 
+    }
+  </style>
+  <!-- 
+    Note: 'dx' values simulate the negative margins used in the CSS version.
+    -0.15em closes the gap before the triangle.
+    -0.15em closes the gap after the triangle.
+  -->
+  <text x="50%" y="75%" text-anchor="middle" class="text">
+    PRED<tspan class="triangle" dx="-0.15em">▲</tspan><tspan dx="-0.15em">TOR</tspan>
+  </text>
+</svg>
